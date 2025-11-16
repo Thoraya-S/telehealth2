@@ -90,7 +90,8 @@
     font-size: 3rem;
     font-weight: bold;
     background: linear-gradient(90deg, #00e5ff, #cce7ff);
-    -webkit-background-clip: text;
+    /* -webkit-background-clip: text;  */
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     text-shadow: 0 0 10px #00e5ff;
   }
